@@ -1,0 +1,45 @@
+/* 
+?CSS - cascading style sheets
+*language that defines pos
+
+
+*/
+
+/* Wildcard - meaning everything */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+header {
+    background-color: orange;
+    padding: 1em;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.nav-links:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+nav {
+    margin: 1em;
+}
+
+/*ID Selector (#)*/
+#pic-container {
+    border: black;
+}
+
+
+
